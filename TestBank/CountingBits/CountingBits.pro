@@ -20,3 +20,5 @@ unix {
     target.path = /usr/lib
     INSTALLS += target
 }
+
+DESTDIR = $$OUT_PWD/../../TestBank_RunTime/bin

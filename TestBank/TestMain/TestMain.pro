@@ -4,3 +4,5 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += main.cpp
+
+DESTDIR = $$OUT_PWD/../../TestBank_RunTime/bin
