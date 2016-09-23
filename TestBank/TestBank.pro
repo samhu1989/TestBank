@@ -2,4 +2,5 @@ TEMPLATE = subdirs
 
 SUBDIRS += \
     CountingBits \
-    TestMain
+    TestMain \
+    CombinationOfGivenSum

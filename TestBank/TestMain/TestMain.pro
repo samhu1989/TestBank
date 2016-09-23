@@ -11,3 +11,8 @@ win32: LIBS += -L$$DESTDIR -lCountingBits
 
 INCLUDEPATH += $$PWD/../CountingBits
 DEPENDPATH += $$PWD/../CountingBits
+
+win32: LIBS += -L$$DESTDIR -lCombinationOfGivenSum
+
+INCLUDEPATH += $$PWD/../CombinationOfGivenSum
+DEPENDPATH += $$PWD/../CombinationOfGivenSum
