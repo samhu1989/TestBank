@@ -16,3 +16,8 @@ win32: LIBS += -L$$DESTDIR -lCombinationOfGivenSum
 
 INCLUDEPATH += $$PWD/../CombinationOfGivenSum
 DEPENDPATH += $$PWD/../CombinationOfGivenSum
+
+win32: LIBS += -L$$DESTDIR -lCountMS
+
+INCLUDEPATH += $$PWD/../CountMS
+DEPENDPATH += $$PWD/../CountMS

@@ -1,8 +1,8 @@
 #include <iostream>
 //#include "countingbits.h"
-#include "combinationofgivensum.h"
+//#include "combinationofgivensum.h"
+#include "countms.h"
 using namespace std;
-
 int main(int argc, char *argv[])
 {
 //    Solution solution;
@@ -14,8 +14,11 @@ int main(int argc, char *argv[])
 //        std::cerr<<"lut:"<<solution.popcount_lut(137)<<std::endl;
 //    }
 //    std::cerr<<std::endl;
-    std::vector<double> list = {1.0 , 2.0 , 3.0 , 4.0, 5.0};
+//    std::vector<double> list = {1.0 , 2.0 , 3.0 , 4.0, 5.0};
+//    Solution solution;
+//    std::cerr<<solution.CombinationOfGivenSum(list,6.0)<<std::endl;
     Solution solution;
-    std::cerr<<solution.CombinationOfGivenSum(list,6.0)<<std::endl;
+    std::string name = "./data/CountMS.txt";
+    solution.count(name);
     return 0;
 }
